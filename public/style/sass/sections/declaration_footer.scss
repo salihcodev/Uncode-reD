@@ -1,0 +1,105 @@
+section.declaration_footer {
+  background: $sub_bk_color;
+  color: $white_color;
+  text-align: center;
+  padding: 70px 0 0;
+  min-height: 500px;
+  
+  p.flag {
+    text-shadow: 10px 15px 4px #0000002b;
+    -webkit-text-fill-color: $sub_bk_color;
+    font-size: $sudo_by_vw;
+    background-clip: text;
+    font-family: $font_4;
+    margin: -10px 0 0 0;
+
+
+    &:first-child::first-letter {
+      color: $sub3_color;
+    }
+  }
+  
+  p.heading_description {
+    margin-top: 30px;
+  }
+
+  button.purchasing_btn {
+    transition: all ease 0.4s;
+    background: #82B440 !important;
+    padding: 20px 50px;
+    position: relative;
+    margin-top: 100px;
+    @include sudo_btn;
+
+    &:hover {
+      background: #72ab29 !important;
+    }
+
+    &::after {
+      border-bottom: 15px solid transparent;
+      border-right: 15px solid #64a510;
+      border-top: 15px solid #64a510;
+      border-left: 15px solid transparent;
+      position: absolute;
+      display: block;
+      content: '';
+      right: 0;
+      top: 0;
+    }
+
+    &::before {
+      font-family: "Font Awesome 5 Free";
+      position: absolute;
+      font-weight: 900;
+      content: '\f005';
+      font-size: 12px;
+      display: block;
+      right: 1px;
+      z-index: 5;
+      top: 2px;
+    }
+  }
+
+  .declaration_footer_helpers {
+    border-top: $sudo_light;
+    margin-top: 120px;
+    margin-top: 100px;
+    min-height: 100px;
+    
+    .item_border {
+      transition: all ease 0.4s;
+      padding-right: 0; // to reset bootstrap properties.
+      padding-left: 0; // to reset bootstrap properties.
+
+      &:not(:first-of-type) {
+        border-left: $sudo_light;
+      }
+
+      &:hover {
+        background: #ffffff14;
+      }
+    }
+
+    .item {
+      padding-top: 45px;
+      height: 170px;
+
+      .item_container {
+        background-position: 50% 38%;
+        background-size: cover;
+        height: 60px;
+        margin: auto;
+        width: 60px;
+      }
+      
+      .item_one {
+        background-image: url('../images/declaration_footer_sec/01.svg');}
+  
+      .item_tow {
+        background-image: url('../images/declaration_footer_sec/02.svg');}
+  
+      .item_three {
+        background-image: url('../images/declaration_footer_sec/03.svg');}
+    } 
+  }
+}

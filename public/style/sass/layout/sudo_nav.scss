@@ -1,0 +1,74 @@
+nav.sudo_nav {
+  box-shadow: 0 0 10px 0px #00000054;
+  justify-content: space-between;
+  transition: all ease-in 0.5s;
+  background: $white_color;
+  position: fixed;
+  display: flex;
+  height: 50px;
+  z-index: 5;
+  right: 0;
+  left: 0;
+  top: 0;
+
+  section.logo {
+    flex-grow: 1.5;
+
+    .logo_container {
+      margin-left: 30px;
+      font-size: 30px;
+      margin-top: 5px;
+
+      span {
+        a {
+          color: $so_gray_color;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  section.lists {
+    transition: all cubic-bezier(0.1, 0.55, 0.02, 1.13) 0.6s;
+    flex-grow: 0.5;
+
+    ul {
+      justify-content: space-evenly;
+      padding-top: 15px;
+      display: flex;
+      width: 100%;
+
+      li {
+        text-transform: uppercase;
+        font-size: $normal_px - 1;
+        transition: all ease 0.3s;
+        cursor: pointer;
+        transition: all ease 0.4s;
+
+        &:hover {
+          @extend .sudoNaveElActive;
+        }
+
+        i {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+
+  button.close_control {
+    background: transparent;
+    position: relative;
+    padding: 0 30px;
+    border: none;
+
+    > span {
+      transition: all ease 0.5s;
+      background: $so_gray_color;
+      margin: 5px 0px;
+      display: block;
+      width: 30px;
+      height: 2px;
+    }
+  }
+}

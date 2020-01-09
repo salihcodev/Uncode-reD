@@ -1,0 +1,36 @@
+/*=*=*==*=*=*=*
+	VERSION       		:  3.0,
+	CODED BY      		:  AHMED ALI SALIH,
+	MY WORK EMAIL 		: Ahmedsalihdev@gmail.com,
+	MY PORTFOLIO			: https://ahmedsalih.netlify.com
+*=*=*==*=*=*=*/
+
+
+// Involve Helpers.
+@import 'helpers/vars.scss';
+@import 'helpers/globals.scss';
+@import 'helpers/mixins.scss';
+@import 'helpers/helper_classes.scss';
+
+
+// Involve navs.
+@import 'layout/sudo_nav.scss';
+@import 'layout/gallery_nav.scss';
+
+
+// Get media query.
+@import 'layout/mediaQ.scss';
+
+// Import page sections.
+@import 'sections/header.scss';
+@import 'sections/gallery_container.scss';
+@import 'sections/top_features.scss';
+@import 'sections/main_features.scss';
+@import 'sections/showcase_designs.scss';
+@import 'sections/featured&trusted.scss';
+
+
+// Involve footers.
+@import 'sections/declaration_footer.scss';
+@import 'layout/sudo_footer.scss';
+@import 'layout/sub_footer.scss';

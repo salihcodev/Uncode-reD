@@ -1,0 +1,38 @@
+section.top_features {
+  background: $sudo_bk_color;
+  overflow: hidden;
+
+  .feat {
+    text-align: center;
+    text-align: center;
+    min-height: 370px;
+    margin-top: 20px;
+    overflow: hidden;
+    color: #fff;
+    
+    &:not(:first-child) {
+      border-left: $sudo_light_dashed;
+    }
+
+    h2 {
+      font-size: $sudo_by_vw - 1 !important;
+    }
+
+    .feat_img {
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      border-radius: $sudo_radius;
+      border: $sub2_light_border;
+      background-size: contain;
+      margin: 30px auto 0;
+      height: 300px;
+      width: 90%;
+    }
+
+    .feat_one_img {background-image: url('../images/top_featured_sec/01.svg');}
+
+    .feat_tow_img {background-image: url('../images/top_featured_sec/02.svg');}
+
+    .feat_three_img {background-image: url('../images/top_featured_sec/03.svg');}
+  }
+}

@@ -1,0 +1,29 @@
+header {
+  padding: 120px 5px 150px;
+  text-align: center;
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    text-shadow: 16px 26px 10px #00000036;
+
+    > span {
+      background: $sub_btns_color;
+      border-radius: 2px;
+      margin-right: 10px;
+      padding: 3px 15px;
+      color: #fff;
+    }
+  }
+
+  p.heading_description {
+    margin-top: 50px;
+  }
+
+  button {
+    @include sudo_btn;
+    margin-top: 50px;
+  }
+}

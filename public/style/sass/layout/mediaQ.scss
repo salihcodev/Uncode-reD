@@ -1,0 +1,259 @@
+/*=*=*==*=*=*=*
+	VERSION       		:  3.0,
+	CODED BY      		:  AHMED ALI SALIH,
+	MY WORK EMAIL 		: Ahmedsalihdev@gmail.com,
+	MY PORTFOLIO			: https://ahmedsalih.netlify.com
+*=*=*==*=*=*=*/
+
+
+/* START MEDIA QUERY PART */
+
+
+// MEDIA BREAKPOINTS VARS.
+$extra_small_point: 575.98px;
+$extra_large_point: 1200px;
+$large_point: 1199.98px;
+$medium_point: 991.98px;
+$small_point: 767.98px;
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: $extra_small_point) {
+	body {
+		font-size: $normal_px - 2;
+
+		h1, h2 {
+			font-size: $sudo_by_vw + 0.5 !important;
+			font-family: $font_1;
+		}
+
+		p.heading_description {
+			font-size: $normal_px - 1;
+		}
+
+		header {
+			p {
+				margin-top: 60px !important;
+			}
+		}
+
+		p.flag {
+			margin: 0 !important;
+		}
+
+		nav.gallery_nav {
+			display: none;
+		}
+
+		.sub_gallery_nav {
+			display: block;
+		}
+
+		section.top_features {
+			.feat {
+				margin-bottom: 50px;
+			}
+		}
+
+		section.sub_footer {
+			p.authority {
+				text-align: center;
+			}
+		}
+
+		section.lists {
+			box-shadow: 0 1px 8px 2px #00000094;
+			background: $sub2_color;
+			left: 0 !important;
+			padding: 10px 30px;
+			position: absolute;
+			top: -400px;
+			right: 0;
+		
+			ul {
+				justify-content: unset !important;
+				padding: 15px 0 !important;
+				display: block !important;
+		
+				li {
+					border-top: $sudo_light;
+					background: $sub_color;
+					color: $white_color;
+					margin: 10px 2px;
+					display: block;
+					padding: 11px;
+				}
+			}
+		}
+		
+		.declaration_footer {
+			button.purchasing_btn {
+				padding: 15px 35px !important;
+			}
+		}
+
+		.declaration_footer {
+			.declaration_footer_helpers {
+				.item {
+					.item_container {
+						height: 40px !important;
+						width: 40px !important;
+					}
+				}
+			}
+		}
+	}
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: $extra_small_point) and (max-width: $small_point) {
+	body {
+		font-size: $normal_px - 1;
+
+		h1, h2 {
+			font-size: $sudo_by_vw + 0.5 !important;
+			font-family: $font_1;
+		}
+	
+		nav.gallery_nav {
+			display: none;
+		}
+
+		.sub_gallery_nav {
+			display: block;
+		}	
+
+		section.top_features {
+			.feat:last-child {
+				margin-top: 80px;
+			}
+		}
+
+		p.heading_description {
+			font-size: $normal_px;
+		}
+
+		p.flag {
+			margin: 0 !important;
+		}
+
+		section.lists {
+			box-shadow: 0 1px 8px 2px #00000094;
+			background: $sub2_color;
+			left: 0 !important;
+			padding: 10px 30px;
+			position: absolute;
+			top: -400px;
+			right: 0;
+		
+			ul {
+				justify-content: unset !important;
+				padding: 15px 0 !important;
+				display: block !important;
+		
+				li {
+					border-top: $sudo_light;
+					background: $sub_color;
+					color: $white_color;
+					margin: 10px 2px;
+					display: block;
+					padding: 11px;
+				}
+			}
+		}
+
+		.declaration_footer {
+			button.purchasing_btn {
+				padding: 15px 35px !important;
+			}
+		}
+
+		.declaration_footer {
+			.declaration_footer_helpers {
+				.item {
+					.item_container {
+						height: 45px !important;
+						width: 45px !important;
+					}
+				}
+			}
+		}
+	}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: $small_point) and (max-width: $medium_point) {
+	body {
+		font-size: $normal_px - 2;
+		section.top_features {
+			.feat:last-child {
+				margin-top: 100px;
+			}
+		}
+
+		p.heading_description {
+			font-size: $normal_px + 1;
+		}
+
+		section.lists {
+			box-shadow: 0 1px 8px 2px #00000094;
+			background: $sub2_color;
+			left: 0 !important;
+			padding: 10px 30px;
+			position: absolute;
+			top: -400px;
+			right: 0;
+		
+			ul {
+				justify-content: unset !important;
+				padding: 15px 0 !important;
+				display: block !important;
+		
+				li {
+					border-top: $sudo_light;
+					background: $sub_color;
+					color: $white_color;
+					margin: 10px 2px;
+					display: block;
+					padding: 11px;
+				}
+			}
+		}
+
+		.declaration_footer {
+			.declaration_footer_helpers {
+				.item {
+					.item_container {
+						height: 50px !important;
+						width: 50px !important;
+					}
+				}
+			}
+		}
+	}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: $medium_point) and (max-width: $large_point) {
+	body {
+		nav.sudo_nav {
+			button.close_control {
+				display: none;
+			}
+		}
+	}
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: $extra_large_point) {
+	body {
+		nav.sudo_nav {
+			button.close_control {
+				display: none;
+			}
+		}
+	}
+}
+
+
+/* END MEDIA QUERY PART */

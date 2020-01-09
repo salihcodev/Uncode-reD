@@ -1,0 +1,30 @@
+// MIXINS FILE :)
+
+// Button Mixin.
+@mixin sudo_btn {
+  background: $sudo_btns_color;
+  font-family: $font_3;
+  letter-spacing: 2px;
+  color: $white_color;
+  padding: 15px 50px;
+  border-radius: 3px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+
+// Gallery layer Mixin.
+@mixin gallery_items_layer {
+  border-radius: $sudo_radius;
+  background: #ffffff45;
+  text-align: center;
+  position: absolute;
+  font-size: 35px;
+  line-height: 8;
+  content: '';
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}

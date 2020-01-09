@@ -1,0 +1,32 @@
+footer {
+  background: $sub_color;
+  color: $white_color;
+  min-height: 170px;
+  min-height: 150px;
+  width: 100%;
+
+  .footer_container {
+    ul {
+      text-align: center;
+      padding: 40px 10px 20px;
+
+      li {
+        padding: 10px;
+        transition: all ease 0.4s;
+
+        &:hover a i{
+          color: $opacities_color;
+        }
+
+        a {
+          color: $white_color;
+
+          i {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+

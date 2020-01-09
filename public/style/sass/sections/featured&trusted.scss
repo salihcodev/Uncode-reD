@@ -1,0 +1,61 @@
+section.featured_trusted {
+  text-align: center;
+  padding: 50px 0;
+
+  .trusted_companies {
+    border: 1px solid #ddd9;
+    padding: 80px 10px 30px;
+    min-height: 300px;
+    margin-top: 30px;
+    border-top: none;
+    
+    .trust_me {
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      transition: all ease 0.3s;
+      border: 1px solid #ddd;
+      margin-bottom: 15px;
+      border-radius: 2px;
+      padding: 40px;
+      height: 70px;
+
+      &:hover {
+        box-shadow: 0px 3px 9px -5px #000000c9;
+      }
+    }
+
+    .trust_1 {background-image: url('../images/trusted_sec/01.svg');}
+
+    .trust_2 {background-image: url('../images/trusted_sec/02.svg');}
+
+    .trust_3 {background-image: url('../images/trusted_sec/03.svg');}
+
+    .trust_4 {background-image: url('../images/trusted_sec/04.svg');}
+
+    .trust_5 {background-image: url('../images/trusted_sec/05.svg');}
+
+    .trust_6 {background-image: url('../images/trusted_sec/06.svg');}
+
+    .trust_7 {background-image: url('../images/trusted_sec/07.svg');}
+
+    .trust_8 {background-image: url('../images/trusted_sec/08.svg');}
+
+    .trust_9 {background-image: url('../images/trusted_sec/09.svg');}
+
+    .trust_10 {background-image: url('../images/trusted_sec/10.svg');}
+
+    .trust_11 {background-image: url('../images/trusted_sec/11.svg');}
+
+    .trust_12 {background-image: url('../images/trusted_sec/12.svg');}
+
+    .trust_13 {background-image: url('../images/trusted_sec/13.svg');}
+
+    .trust_14 {background-image: url('../images/trusted_sec/14.svg');}
+
+    .trust_15 {background-image: url('../images/trusted_sec/15.svg');}
+
+    .trust_16 {background-image: url('../images/trusted_sec/16.svg');}
+
+    .trust_17 {background-image: url('../images/trusted_sec/17.svg');}
+  }
+}

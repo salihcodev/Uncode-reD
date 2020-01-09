@@ -1,0 +1,52 @@
+// * NOTE
+// ALL CLASSES HERE WRITTEN BY CAMEL CASE STYLE.
+
+// heigh light the active list in sudo navbar.
+.sudoNaveElActive {
+  color: $opacities_color !important;
+}
+
+// heigh light the active list in gallery navbar.
+.galleryNaveElActive {
+  color: $sub4_color !important;
+}
+
+// customize the row in bootstrap grid.
+.customizedRow {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+// toggle nav menu.
+.toggleNavMenu {
+  top: 60px !important;
+}
+
+
+// ANIMATE MENU BUTTON'S BARS.
+// for the main bar
+.barOneStyle {
+  transform: rotate(90deg);
+}
+
+// left bar settings
+.barTowStyle {
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+  transform: rotate(229deg);
+  width: 20px !important;
+  position: absolute;
+  left: 40.9px;
+  top: 9.9px;
+}
+
+// right bar settings.
+.barThreeStyle {
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+  transform: rotate(130deg);
+  width: 20px !important;
+  position: absolute;
+  left: 28.9px;
+  top: 10px;
+}

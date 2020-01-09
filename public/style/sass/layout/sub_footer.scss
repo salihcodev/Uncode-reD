@@ -1,0 +1,29 @@
+section.sub_footer {
+  padding: 20px 10px 10px;
+  background: $sub3_color;
+  color: $white_color;
+  min-height: 30px;
+
+  p.authority {
+    font-size: 13px;
+
+    span.author {
+      padding: 2px;
+    }
+
+    i {
+      margin-right: 3px;
+      margin-left: 3px;
+    }
+  }
+
+  p.reservation {
+    font-size: 13px;
+
+    text-align: center;
+
+    span.brand {
+      font-weight: bold;
+    }
+  }
+}

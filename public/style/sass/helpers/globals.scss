@@ -1,0 +1,52 @@
+// GLOBALS CASCADING /:
+
+* {
+  text-transform: capitalize;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  line-height: 1.5 !important;
+  font-size: $normal_px;
+  font-family: $font_2;
+  color: $gray_color;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: inline;
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  // global anchor.
+  a {
+    color: $white_color;
+  }
+
+  h1, h2 {
+    font-size: $sudo_by_vw !important;
+    font-family: $font_1;
+  }
+
+  p.heading_description {
+    font-size: $normal_px + 2;
+  }
+
+  // author part.
+  span.author {
+    padding: 10px;
+
+    a {
+      text-decoration: none;
+      font-family: $font_1;
+      color: $white_color;
+      font-size: 13px;
+    }
+  }
+}

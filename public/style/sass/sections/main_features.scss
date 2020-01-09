@@ -1,0 +1,35 @@
+section.main_features {
+  min-height: 500px;
+
+  .featured_boxes {
+    padding: 20px 25px;
+    margin-top: 100px;
+
+    h2, p.flag {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .m_feat {
+      border: $sub_light_border;
+      transition: all ease 0.3s;
+      padding: 10px 20px;
+      border-radius: 5px;
+      margin-top: 20px;
+
+      &:hover {
+        box-shadow: 0px 7px 25px -9px #00000099;
+      }
+    }
+
+    .btn_next {
+      text-align: center;
+      padding: 20px 0;
+      margin: 50px 0;
+
+      button {
+        @include sudo_btn;
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+doctype html
+html
+  head
+    link(rel="stylesheet", href="css/app-style.css")
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Acme|Montserrat|Roboto:700|Staatliches&display=swap")
+  body
+    //- HELPERS :)
+    //- involve mixins.
+    include helpers/mixins
+
+    //- involve main navbar.
+    include layout/sudo_nav
+
+    //- involve header.
+    include content/header
+
+    //- GALLERY.
+    //- involve gallery navbar.
+    include layout/gallery_nav
+    //- involve gallery container.
+    include content/gallery_container
+
+    //- FEATURES.
+    //- top features.
+    include content/top_features
+    //- main features.
+    include content/main_features
+
+    //- WORK MODELS.
+    //- prototypes of our designs.
+    include content/showcase_designs
+
+    //- DEALS WITH OTHER COMPANIES.
+    //- featured and trusted deals.
+    include content/featured&trusted
+
+    //- FINALLY FOOTERS.
+    //- view price in big footer.
+    include content/declaration_footer
+    //- sudo footer and end the site.
+    include layout/sudo_footer
+    include layout/sub_footer
+
+    //- Seeding the main script file
+    script(src="js/app-script.js")
+
+
+
+//- /*=*=*==*=*=*=*
+//- 	VERSION       		:  3.0,
+//- 	CODED BY      		:  AHMED ALI SALIH,
+//- 	MY WORK EMAIL 		: Ahmedsalihdev@gmail.com,
+//- 	MY PORTFOLIO			: https://ahmedsalih.netlify.com
+//- *=*=*==*=*=*=*/

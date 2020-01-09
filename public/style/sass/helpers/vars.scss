@@ -1,0 +1,45 @@
+/*=*=*==*=*=*=*
+	VERSION       		:  3.0,
+	CODED BY      		:  AHMED ALI SALIH,
+	MY WORK EMAIL 		: Ahmedsalihdev@gmail.com,
+	MY PORTFOLIO			: https://ahmedsalih.netlify.com
+*=*=*==*=*=*=*/
+
+
+// FONTS MEASURES
+$sudo_by_vw: 4.5vw; // for headings.
+$normal_px: 14px;  // normal measures for the web page.
+
+
+// RADIUS
+$sudo_radius: 5px;
+$sub_radius: 3px;
+
+
+// ELEMENTS COLORS AND BACKGROUNDS.
+$gray_color: #444;
+$so_gray_color: #555;
+$white_color: #fff;
+$sudo_color: #8e3bda;
+$sub_color: #202932;
+$sub2_color: #242e38;
+$sub3_color: #171d23;
+$sub4_color: #4381e1;
+$opacities_color: #999;
+// gradients.
+$sudo_bk_color: linear-gradient(340deg, #2d0a4e, #5641ad, #683198);
+$sub_bk_color: linear-gradient(340deg, #013165, #41a3ad, #345f6b);
+$sudo_btns_color: linear-gradient(347deg, #48355a, #5f4dab, #683198);
+$sub_btns_color: linear-gradient(347deg, #27415f, #4990ff, #93add6);
+
+// LIGHT BORDERS.
+$sudo_light: 1px solid #dddddd17; // used in top featured & declaration footer.
+$sudo_light_dashed: 1px dashed #dddddd17; // used in top featured & declaration footer.
+$sub_light_border: 1px solid #ddddddb5; // used in main featured.
+$sub2_light_border: 1px solid #67676717; // used in gallery section.
+
+// FONTS FAMILIES
+$font_1: 'Acme', sans-serif; // special font
+$font_2: 'Montserrat', sans-serif;  // thin font
+$font_3: 'Staatliches', cursive;  // bold font
+$font_4: 'Roboto', sans-serif; // too big font 
